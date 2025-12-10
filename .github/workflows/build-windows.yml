@@ -47,7 +47,7 @@ jobs:
         shell: pwsh
 
       - name: Upload installer
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pokemon-windows-installer
           path: electron/dist/*
